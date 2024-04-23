@@ -1,1 +1,5 @@
-
+#for area of a square
+sidea=int(input("Enter a side1")) #Intitalizing the First side of a square.
+sideb=int(input("Enter a side2")) #Intitalizing the second side of a square.
+area=(sidea*sideb)               #performing arithmetic operation like we use here is "*" i.e. multiplication.
+print("area of square :",area)   #printing or showing the value to the user.
