@@ -1,5 +1,69 @@
 #for area of a square
 sidea=int(input("Enter a side1")) #Intitalizing the First side of a square.
 sideb=int(input("Enter a side2")) #Intitalizing the second side of a square.
-area=(sidea*sideb)               #performing arithmetic operation like we use here is "*" i.e. multiplication.
-print("area of square :",area)   #printing or showing the value to the user.
+area=sidea*sideb                  #performing arithmetic operation like we use here is "*" i.e. multiplication.
+print("area of square :",area)    #printing or showing the value to the user.
+
+
+#for area a Rectangle.
+base=int(input("Enter the base"))   #Intitalizing the base of a rectangle.
+height=int(input("Enter a height")) #Intitalizing the height of rectangle.
+area=base*height                    #performing arithmetic operation like we use here is "*" i.e. multiplication.
+print("area of square :",area)      #printing or showing the value to the user.
+
+
+#for area of Triangle.
+base=int(input("Enter the base"))   #Intitalizing the base of a triangle.
+height=int(input("Enter a height")) #Intitalizing the height of triangle.
+area=0.5*base*height                #performing arithmetic operation like we use here is "*" i.e. multiplication.
+print("area of triangle :",area)    #printing or showing the value to the user.
+
+
+#for area of a circle.
+radius=int(input("Enter the radius:")) #Intitalizing the radius of a circle.
+area=3.14*radius**2                    #performing arithmetic operation like we use here is "*" i.e. multiplication, and double star indicate for power.
+print("area of circle :",area)         #printing or showing the value to the user.
+
+
+#perimeter of a Square.
+side=int(input("Enter a side"))                 #Intitalizing the side of a square.
+perimeter=4*side                                #performing arithmetic operation like we use here is "*" i.e. multiplication.
+print("perimeter of the square is: ",perimeter) #printing or showing the value to the user.
+
+
+#for perimeter a Rectangle.
+base=int(input("Enter the base"))         #Intitalizing the base of a rectangle.
+height=int(input("Enter the height"))     #Intitalizing the height of rectangle.
+perimeter=2*base+height                   #performing arithmetic operation like we use here is "*","+"i.e. multiplication,addition.
+print("perimeter of square :",perimeter)  #printing or showing the value to the user.
+
+
+#for perimeter of Triangle.
+base=int(input("Enter the base"))             #Intitalizing the base of a triangle.
+height=int(input("Enter a height"))           #Intitalizing the height of triangle.
+perimeter=2*base+height                       #performing arithmetic operation like we use here is "*","+"i.e. multiplication,addition.
+print("perimeter of triangle :",perimeter)    #printing or showing the value to the user.
+
+
+#for perimeter of a circle.
+radius=int(input("Enter the radius:"))        #Intitalizing the radius of a circle.
+perimeter=2*3.14*radius                       #performing arithmetic operation like we use here is "*" i.e. multiplication, and double star indicate for power.
+print("perimeter of circle :",perimeter)      #printing or showing the value to the user.
+
+
+#for area of a trapizoid
+length=float(input("enter any number"))    #Intitalizing the length of a rectangle.
+width=float(input("enter any number"))     #Intitalizing the width of a rectangle.
+height=float(input("enter height"))        #Intitalizing the height of a rectangle.
+area=(length+width)*height/2               #performing arithmetic operation like we use here is "*","+","/"i.e. multiplication,addition,division.
+print("area of trapezoid:",area)           #printing or showing the value to the user.
+
+
+#for volume of a cylinder
+radius=float(input("Enter the radius"))    #Intitalizing the radius of a cylinder.
+height=float(input("enter the height"))    #Intitalizing the height of a cylinder.
+volume=3.14*radius*radius*height           #performing arithmetic operation like we use here is "*" i.e. multiplication.
+print("volume of the cylinder :",volume)   #printing or showing the value to the user.
+
+
+
