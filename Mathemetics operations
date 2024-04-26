@@ -1,0 +1,5 @@
+#area of the rectangle
+length=float(input("enter the length :"))
+width=float(input("enter the width:"))
+AR=length*width
+print("area of the rectangle is :", AR)
