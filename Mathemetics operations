@@ -1,5 +1,76 @@
-#area of the rectangle
+# curved surface area of the cuboid
 length=float(input("enter the length :"))
 width=float(input("enter the width:"))
-AR=length*width
-print("area of the rectangle is :", AR)
+height=float(input("enter the height:"))
+SurfArea=2*height(length+width)
+print("surface area of the cuboid is :", SurfArea)
+
+
+# total surface area of the cuboid
+length=float(input("enter the length :"))
+width=float(input("enter the width:"))
+height=float(input("enter the height:"))
+SurfArea=2*(length*width+height*width+length*height)
+print("surface area of the cuboid is :", SurfArea)
+
+
+
+#volume of the cuboid
+length=float(input("enter the length :"))
+width=float(input("enter the width:"))
+height=float(input("enter the height:"))
+volume=2*height(length+width)
+print("Volume of the cuboid is :", volume)
+
+
+# curved surface area of the cube
+length=float(input("enter the length :"))
+SurfArea=4*length**2
+print("curved surface area of the cube is :", SurfArea)
+
+
+# total surface area of the cube
+length=float(input("enter the length :"))
+SurfArea=6*length**2
+print("total surface area of the cube is :", SurfArea)
+
+
+# volume of the cube
+length=float(input("enter the length :"))
+volume=length**3
+print("volume of the cube is :", volume)
+
+
+# curve surface area of the cone
+length=float(input("enter the length :"))
+radius=float(input("enter the radius:"))
+SurfArea=3.14*radius*length
+print("curved surface area of the cone :", SurfArea)
+
+
+# total surface area of the cone
+length=float(input("enter the length :"))
+radius=float(input("enter the radius:"))
+SurfArea=3.14*radius(length+radius)
+print("total surface area of the cone :", SurfArea)
+
+
+# volume  of the cone
+height=float(input("enter the height:"))
+radius=float(input("enter the radius:"))
+volume=0.3*3.14*radius**2*height
+print("volume of the cone :", volume)
+
+
+# total surface area of the cone
+radius=float(input("enter the radius:"))
+SurfArea=3*3.14*radius**2
+print("total surface area of the cone :", SurfArea)
+
+
+
+
+
+
+
+
