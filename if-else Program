@@ -1,0 +1,79 @@
+a=int(input("Enter any number"))       #taking input from user/intializing valueto the variable.
+b=int(input("Enter any number"))       #taking input from user/intializing valueto the variable.
+if(a>b):                               #if block where we can perform operation and ":"is used for stating the block.
+----print("First number is greater")   #Print staement.
+    print("if block executed")
+print("outer block executed")
+
+
+a=int(input("Enter a number"))         #taking input from user/intializing valueto the variable
+b=int(input("Enter a number"))         #taking input from user/intializing valueto the variable
+if(a>b):                               #if block where we can perform condition and ":"is used for stating the block.
+    print("First number is greater")   #Print staement.
+    print("if executed")
+else:                                  #else block in this if condition is false then it will go to else block.
+    print("Second is greater")         #Print staement.
+    print("else block executed")
+print("outer block executed")
+
+
+number=int(input("Enter a number:"))   #taking input from user/intializing valueto the variable
+if (number>0):                         #if block where we can perform condition and ":"is used for stating the block
+    print('Positive number')           #Print staement.
+else:                                  #else block in this if condition is false then it will go to else block.
+    print('Negative number')           #Print staement.
+print("outer block executed")
+
+
+number=int(input("Enter a number:"))   #taking input from user/intializing valueto the variable
+if (number%2==0):                      #if block where we can perform condition and ":"is used for stating the block
+    print('Even number')               #Print staement.
+else:                                  #else block in this if condition is false then it will go to else block.
+    print('Odd number')                #Print staement.
+print("outer block executed")
+
+
+age=int(input("Enter a number:"))   #taking input from user/intializing valueto the variable
+if (age>=18):                       #if block where we can perform condition and ":"is used for stating the block
+    print('Eligible for vote')      #Print staement.
+else:                               #else block in this if condition is false then it will go to else block.
+    print('Not eligible for vote')  #Print staement.
+print("outer block executed")
+
+
+age=int(input("Enter a number:"))   #taking input from user/intializing valueto the variable
+if (age>=65):                       #if block where we can perform condition and ":"is used for stating the block
+    print('Senior cetizen')         #Print staement.
+else:                               #else block in this if condition is false then it will go to else block.
+    print('Not a senior cetizen')   #Print staement.
+print("outer block executed")
+
+
+#leap yaer or not
+year=int(input("Enter a year"))
+if(year%4==0):
+    print("the year is a leap year")
+else:
+    print("the year is not a leap year")
+print("completed")
+
+
+#green card holder or not
+child=int(input("Enter how many children do you have:"))
+if(child<=2):
+    print("You are eligible for green card.")
+else:
+    print("you are not eligible for green crad.")
+
+
+#Temprature hot or not
+temp=int(input("Enter the temprature:"))
+if(temp>=30):
+    print("The tempratureis very hot.")
+else:
+    print("The temprature is cool.")
+
+
+
+
+

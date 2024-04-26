@@ -1,0 +1,166 @@
+#Greater number between two number.
+a=int(input("Enter any number"))    #Intializing value to the variable.
+b=int(input("Enter any number"))    #Intializing value to the variable.
+if(a>b):                            #If block where we can write our condition
+    print("a is greater than b")    #printing statement.
+    print("if block executed")
+
+elif(a==b):                         #elif block, where we can perfome our condition , if the if block condition is not satisfied then the elif block will executed.
+     print("both are equal")        #printing statement.
+     print("else if block executed")
+
+else:                               #else block,where previous blocks condition is not satisfied then the else block is executed.
+     print("b is grater than ")
+     print("else block executed")
+print("condition satisfied")
+
+
+#for positive negative number
+a= int(input("Enter any number"))    #Intializing value to the variable.
+if(a>0):                             #If block where we can write our condition
+    print("number is positive")      #printing statement.
+    print("if block executed")
+elif(a<0):                           #elif block, where we can perfome our condition , if the if block condition is not satisfied then the elif block will executed.
+    print("number is negative")      #printing statement.
+    print("elif block is executed")
+else:                                #else block,where previous blocks condition is not satisfied then the else block is executed.
+    print("the number is nutral")    #printing statement.
+    print("else block is executed")
+print("all done")
+
+
+#prime number
+num=int(input("Enter a number"))                      
+if(num==2 or num==3 or num==5 or num==7):
+    print(num,"is a prime number")
+elif(num%2==0 or num%3==0 or num%5==0 or num%5==0):
+    print(num,"is not a prime number")
+else:
+    print(num,"is a prime number")
+print("completed")
+
+
+#Even odd number
+a=int(input("Enter any number"))
+if(a%2==0):
+    print("number is even")
+    print("if block executed")
+elif(a==0):
+    print("0 is a nutral number.")
+    print("if block executed")
+else:
+    print("number is odd")
+    print("else block executed")
+print("done..!")
+
+
+#1 for sunday,2=monday and so on
+num=int(input("Enter a number between 1 to 7"))
+if(num==1):
+    print("Sunday")
+elif(num==2):
+    print("Monday")
+elif(num==3):
+    print("Tuesday")
+elif(num==4):
+    print("Wednesday")
+elif(num==5):
+    print("Thursday")
+elif(num==6):
+    print("Friday")
+elif(num==7):
+    print("Saturday")
+else:
+    print("No other days are there")
+
+
+#Grade Checking
+score = int(input("Enter your grade:"))
+if (score>=90):
+    print("Grade A")
+elif (score>=80):
+    print("Grade B")
+elif (score>=70):
+    print("Grade C")
+else:
+    print("Grade D")
+
+
+#1 for january,2=february and so on
+num=int(input("Enter a number between 1 to 12"))
+if(num==1):
+    print("january")
+elif(num==2):
+    print("february")
+elif(num==3):
+    print("March")
+elif(num==4):
+    print("April")
+elif(num==5):
+    print("May")
+elif(num==6):
+    print("June")
+elif(num==7):
+    print("July")
+elif(num==8):
+    print("August")
+elif(num==8):
+    print("September")
+elif(num==10):
+    print("October")
+elif(num==11):
+    print("November")
+elif(num==12):
+    print("December")
+else:
+    print("No other Months are there...")
+
+
+
+#season                                                                                                                          
+                                                                                  
+months=String(input("Enter a month: "))
+
+if(months=="December"or"january" ):
+    print("Its Pre-winter Season.")
+elif(months=="January"or"February" ):
+    print("Its winter season")
+elif(months=="October" or "November" ):
+    print("Its autumn season")
+elif(months=="June"or "July" or "August" or "September" ):
+    print(" Its Monsoon Season")
+elif(months=="March" or "April" or "May" ):
+    print(" Its Monsoon Season")
+elif(months=="February" or "March" ):
+    print(" Its Spring Season")
+else:
+    print("Invalid Input")
+
+
+#percentage of discount you get
+amount = int(input("Enter your amount:"))
+if (amount>=10000):
+    print("You will get 70% of discount on your purchage")
+elif (amount>=5000):
+    print("You will get 45% of discount on your purchage")
+elif (amount>=2000):
+    print("You will get 20% of discount on your purchage")
+else:
+    print("No discount on your purchage")
+
+
+
+#age wise  discount 
+age = int(input("Enter your age:"))
+if (age>=60):
+    print("You will get elderly discount of 10%")
+elif (age>=18 or age<=60):
+    print("No discount")
+elif (age<=18 or age>=10):
+    print("You will get 10% of discount.")
+else:
+    print("No discount ")
+
+
+ 
+
