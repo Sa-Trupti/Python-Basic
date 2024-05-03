@@ -1,1 +1,49 @@
+# looping first 5 numbers
+for i in range(5):
+    print(i)
 
+
+
+# looping from 5 to 10
+for i in range(5, 10): # 10 not included
+    print(i, end=' ')
+print()
+
+
+
+# looping from 5 to 10
+for i in range(5, 10): # 10 not included
+    print(i, end=' ')
+print()
+
+
+
+# looping with step
+
+# jumping by 2
+for i in range(0, 10, 2):
+    print(i, end=' ')
+print()
+
+# jumping by 3
+for i in range(0, 10, 3):
+    print(i, end=' ')
+print()
+
+# negative step
+for i in range(10, 0, -1):
+    print(i, end=' ')
+print()
+
+
+# looping with index
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi']
+for i in range(len(fruits)):
+    print(i, fruits[i])
+
+
+# for loop with else
+for i in range(3):
+    print(i)
+else:
+    print("Loop Finished")
