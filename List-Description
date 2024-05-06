@@ -1,0 +1,19 @@
+sampleList=[10,20,30,40,50]
+NewList=["Ram","sham","hari","joe"]
+#these are the homogenous list,it means the list contains the same type of datatypes likes strings or integer
+
+listNew=[1,"Ram",76.9]
+#this is the heterogeneous list,means the list contains the difftrent type of datatypes
+
+SaList=[10,20,30,40,60,70,80,90]
+SaList[3]
+#when we put any number in between[], then it will become an index of the list, and the index is staring from 0 in positive side and -1 in the negetive
+SaList[-2]
+#positive index strating fromledt to right and negetive index stating from right to left
+len(SaList)
+#here we use the len() function To determine how many items a list has. 
+
+#Range in List
+SaList=[10,20,30,40,60,70,80,90]
+SaList[2:5]
+#in here in the list the number divided  by : are index, first is starting index and last is ending index. But in here it performe it start from the given index but it exclude the last index
