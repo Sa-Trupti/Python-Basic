@@ -2,6 +2,10 @@ sampleList=[10,20,30,40,50]
 NewList=["Ram","sham","hari","joe"]
 #these are the homogenous list,it means the list contains the same type of datatypes likes strings or integer
 
+#for empty list
+li=[]
+li= list()
+
 listNew=[1,"Ram",76.9]
 #this is the heterogeneous list,means the list contains the difftrent type of datatypes
 
@@ -17,3 +21,22 @@ len(SaList)
 SaList=[10,20,30,40,60,70,80,90]
 SaList[2:5]
 #in here in the list the number divided  by : are index, first is starting index and last is ending index. But in here it performe it start from the given index but it exclude the last index
+
+SaList=[10,20,30,40,60,70,80,90]
+SaList[1:4:2]
+#in here the first number indicate the intial index (means indexof 1)of the defined list, and second one is the last index wjich will be excluded .
+#and the last one is indicate as steps, steps means if we give 2 then it will calculate steps by 2.
+
+SaList=[10,20,30,40,60,70,80,90]
+SaList[:] 
+#here the insex is not given so it will take the defalut like the fisrt index i.e 0 and the last  indexof the list.
+
+SaList=[10,20,30,40,60,70,80,90]
+SaList
+SaList[]
+#This is the invalid syntax bcz the this is an empty list.it is compolsry to give the first and last index.
+
+SaList=[10,20,30,40,60,70,80,90]
+SaList[::-1]
+#In this list execution the negetive index is been called. so the index is strating from the right to leftand & nothing is given so it give all the value in a reverse order.
+
