@@ -1,1 +1,26 @@
+MyList=[10,20,30,40,50,"ram","sham",60]
+MyList.append(45)
+MyList
+#in this method the element is added to the last index of the list.
+#in append method at least one argument must be gien,and we can add as many we want.
 
+
+MyList=[10,20,30,40,50,"ram","sham",60]
+MyList.insert(4,90)
+MyList
+#insert(index value, value)
+#In insert method the element is inserted to the given index
+#And the value of the index is shifted.
+
+
+MyList=[10,20,30,40,50,"ram","sham",60]
+MyList.insert(3,[22,33,44])
+MyList
+#here the value which we are giving is is considerd as a single element bcz it is given in a list format.
+
+
+MyList=[10,20,30,40,50,"ram","sham",60]
+MyList[:40]
+MyList
+#in this exection the index is start with the first bcz nothing is given,so default value is the starting index .
+#It will search for thr 40th index,but 40th index is not their so it will show the enire list.
