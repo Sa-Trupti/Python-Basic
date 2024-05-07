@@ -24,3 +24,49 @@ MyList[:40]
 MyList
 #in this exection the index is start with the first bcz nothing is given,so default value is the starting index .
 #It will search for thr 40th index,but 40th index is not their so it will show the enire list.
+
+
+MyList=[10,20,30,40,50,"ram","sham",60]
+MyList.extend([5,7,9])
+MyList
+#it will append the value to the last of the index as a single value
+
+MyList.pop()
+MyList
+#When pop() the value is not given thenit is delete thelast index of the list.
+MyList.pop(5)
+MyList
+#when we give a index value in pop then it will delete the element present in that index.
+
+MyList.remove(5)
+MyList
+#remove is used for delete the element from the list.
+
+#It will delete the 7th index element because the indexing start from 0.
+del MyList[6]
+MyList
+
+#clear will delete all the elements of the list but the list is present in the memory location.
+MyList.clear()
+MyList
+
+#del is going to delete the list as well as the memory location as well.
+del MyList
+
+
+#Looping in list.we can use for loop to get the items in the list.
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)
+
+#For sorting the list we use sort function to sort the list.
+thislist = [100, 50, 65, 82, 23]
+thislist.sort()
+print(thislist)
+
+
+#For copy one list memeber to another new list we use copy function .
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
+
