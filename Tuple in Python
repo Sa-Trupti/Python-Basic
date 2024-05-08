@@ -16,3 +16,4 @@ len(Tup)
 1=(12,23,34,45) #this is the homogenous tuple which contains only single type of datatype.
 T2=(22,33,'mango','grapes',78.5) # This is the hetrogenous tuple which contain difftrent type of data type.
 T2
+
