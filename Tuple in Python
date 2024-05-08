@@ -1,1 +1,18 @@
+Tuple is similar to list except that the objects of the tuple are immutable.that means we can't change the tuple.
+Tuple elements are encolsed with () & the elements separated by comma.
+Access based on index.
+Updation is not allowed in tuple.
+Tuple can be homogenous as well as hetrogenous.
 
+#creating empty tuple using keywords
+T1=()
+T1= tuple()
+T1
+
+#Using the len command which is basically length command we get to know the length of the tuple.
+Tup=("apple", "banana", "cherry")
+len(Tup)
+
+1=(12,23,34,45) #this is the homogenous tuple which contains only single type of datatype.
+T2=(22,33,'mango','grapes',78.5) # This is the hetrogenous tuple which contain difftrent type of data type.
+T2
