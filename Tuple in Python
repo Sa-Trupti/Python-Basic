@@ -17,3 +17,57 @@ len(Tup)
 T2=(22,33,'mango','grapes',78.5) # This is the hetrogenous tuple which contain difftrent type of data type.
 T2
 
+T1[2] # here by giving index number we can get what is in that index,its called indexing.
+
+a,b= (5,6) #this is the tuple unpacking.
+
+T2=(22,33,'mango','grapes',78.5)
+T2[3]=8
+#Here erroe will occur bcz tuple object doesnot support item assignment.
+
+T2=(22,33,'mango','grapes',78.5)
+del T2
+#we can't perform delete operation in tuple bcz tuple does not support updation and deletion.
+
+tup=(20,50,"data",78,[56,89],[22,33,44],{"turpti","Rohit"},(65,26))
+#this is a nested tuple.
+len(tup)
+
+tup[5][1]
+#if we want to find the element inthe nested tuple then we can find like this.
+
+tup=(20,50,"data",78,[56,89],[22,33,44],{"turpti","Rohit"},(65,26))
+tup[-1]
+#this is the minus indexing . it will start from right to left so the last element will fatch.
+
+tup2=(20,50,"data",78,[56,89],[22,33,44],["turpti","Rohit"],(65,26))
+tup2[4][0]=60
+#In Tupple element assignment is not supported .so the assign operation is not working here.
+
+tup3=('one','two','three','one','two','four','one','two','three')
+tup3.count('one')
+#the count function is used to count the element which is given how many time it occur in tuple.
+
+tup3.index('three')
+#it will give the first index location of the element which is given.
+
+80 in tup3
+#in operator is give the boolean value.It check 80 is present in the tuple or not.Accordingly it will give true or false value.
+
+'80'not in tup3
+#it will check if 80 is not present in this tuple.
+
+tup4 = (45,87,90,12,54,49,38)
+a=sorted(tup4)
+print(a)
+#Sorted function is used to sort the elements in assending order.
+
+tup4 = (45,87,90,12,54,49,38)
+a=sorted(tup4,reverse=True)
+print(a)
+#It will sort the tuple in desending order.
+
+tup5=(4,7,9,'9',56,98,'7')
+sorted(tup5)
+#we cant perform sorted operation in diffrent datatypes.
+
