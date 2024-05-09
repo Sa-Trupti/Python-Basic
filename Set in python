@@ -1,1 +1,63 @@
+A set is a collection which is unordered, and we can't change the item but we can remove items and add new items, and unindexed.
 
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+
+mset={}
+type(mset)
+#type is used to tell us what is the class of the set.
+myset= set()
+type(myset)
+
+myset={1,2,3,4,5,6,1,2}
+myset
+#duplicate value is exclued in set
+#set do not allow duplicate values
+
+#Sets can be homogenous also hetrogenous.
+myset1={12.3,34.5,35.4,67.8,98.0}  #homogenous datatype.
+myset1
+
+myset2={'ram','sham','hari','data'}
+myset2 
+
+myset3={10,20,'hola', (11,22,33)}
+myset3
+#mixed datatype or hetrogenous datatype.
+
+#Sets are unordered, so we cannot be sure in which order the items will come at what position.
+myset4={'one','two','three','four','five','six','seven','eight'}
+myset4
+The output of the set is:
+{'eight', 'five', 'four', 'one', 'seven', 'six', 'three', 'two'}
+
+#To Acces the items in the set we can use "in" or "not in" operator.
+myset4={'one','two','three','four','five','six','seven','eight'}
+
+'nine'  in myset4
+'nine' not in myset4
+#it will give us a boolean output like true or false
+
+
+#Once a set is created, you cannot change its items, but you can add new items.
+To add one item to a set use the add() method.
+
+myset5={2,3,4}
+myset5.add('9')
+myset5
+
+#The object in the update() method does not have to be a set, it can be any iterable object (tuples, lists, dictionaries etc).
+
+myset5.update(['ten','eleven','twelve'])
+myset5
+
+myset5.update([10])
+myset5
+
+#To remove an item in a set, use the remove(), or the discard() method.
+myset5={10, 2, 3, 4, '9', 'eleven', 'ten', 'twelve'}
+myset5.discard('9')
+myset5
+
+myset5.clear()
+myset5
