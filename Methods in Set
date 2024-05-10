@@ -1,1 +1,19 @@
+A= {1,2,3,4,5}
+B= {4,5,6,7,8}
+C= {8,9,10}
+#The union()  methods joins all items from both sets.
+#We can use the | operator instead of the union() method, and we will get the same result.
+A.union(B) 
+B.union(A)  
+A.union(B,C) #here the distincts items of all set will be join.
 
+A= {1,2,3,4,5}
+B= {4,5,6,7,8}
+#the intersection() method  only contains the items that are present in both sets.
+A.intersection(B) 
+
+#The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.
+A= {1,2,3,4,5}
+B= {4,5,6,7,8}
+A.difference(B)
+B.difference(A)
