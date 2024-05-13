@@ -1,1 +1,34 @@
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered, changeable and do not allow duplicates values.
+When we say that dictionaries are ordered, it means that the items have a defined order, and that order will not change.
+Unordered means that the items do not have a defined order, you cannot refer to an item by using an index.
+Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.
+Dictionaries cannot have two items with the same key:
+Dictionaries are written with curly brackets, and have keys and values:
 
+mydict={1:'one',2:'two',3:'three'} #with integer keys
+mydict
+
+#The below function is used to get the keys in the dictionary.
+mydict={1:'one',2:'two',3:'three'}
+mydict.keys()
+#The below function is used to get the values in the dictionary.
+mydict={1:'one',2:'two',3:'three'}
+mydict.values()
+#The below function is used to get the items(keys and values both) in the dictionary.
+mydict.items()
+
+#creating dictionary using dict()
+mydict1 = dict({1:'one', 2:'two', 3:'three'}) 
+mydict1
+
+#dictionary with one value as list.
+mydict1= {1:'one',2:'two','A':['Data','john','maria']} 
+mydict1
+
+
+#we can add list 
+d={0:{'one':1,'two':2,'three':3,'four':4},
+   1:{'city':'banglore','area':'kudlu'},
+  'three':{'city':'mumbai','area':'dharvi'}}
+d
