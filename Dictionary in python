@@ -61,3 +61,12 @@ mydict2
 
 mydict2.popitem()   #removing a pair generally the last pair will removed.
 
+del[mydict2['ID']]   #removing the iteam using del method
+mydict2
+
+mydict2.clear()     #Delete all the items of the dictionary using clear method
+mydict2
+
+del mydict2     #delete the dictionary object.
+mydict2
+
