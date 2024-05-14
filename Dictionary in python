@@ -41,3 +41,23 @@ mydict2
 #The update() method will update the dictionary with the items from a given argument. If the item does not exist, the item will be added.
 mydict2.update({'key':'value1'})
 mydict2
+
+mydict2.update({'key':'value100'})
+#we directly assign the value by giving the value to the key.
+mydict2['DOB']=1992
+mydict2
+
+#The pop() method removes the item with the specified key name
+mydict2={'name': 'Data',
+ 'ID': 12345,
+ 'DOB': 1992,
+ 'Address': 'pune',
+ 'key': 'value100',
+ 'ABC': 1,
+ 'job': 'Analyst'}
+
+mydict2.pop('job')
+mydict2
+
+mydict2.popitem()   #removing a pair generally the last pair will removed.
+
