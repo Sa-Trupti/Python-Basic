@@ -27,8 +27,17 @@ mydict1= {1:'one',2:'two','A':['Data','john','maria']}
 mydict1
 
 
-#we can add list 
+#we can add list  and another dictionary in it.
 d={0:{'one':1,'two':2,'three':3,'four':4},
    1:{'city':'banglore','area':'kudlu'},
   'three':{'city':'mumbai','area':'dharvi'}}
 d
+
+#METHODS IN DICTIONARY.
+mydict2={'name':'Data', 'ID':12345 ,
+        'DOB':1996,'Address':'pune'}
+mydict2
+
+#The update() method will update the dictionary with the items from a given argument. If the item does not exist, the item will be added.
+mydict2.update({'key':'value1'})
+mydict2
