@@ -1,10 +1,87 @@
+A function is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a function.
+A function can return data as a result.
+
 #pass nothing ,return nothung
-def addition():
+def addition():                        #function defination
     a=int(input("Enter a number: "))
     b=int(input("Enter a number: "))
     c=a+b
     print(c)
 
-addition()
+addition()                             #calling function  
 
 
+#pass something,return nothing
+def addition(n1,n2):
+    res=n1+n2
+    print(res)
+
+
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+addition(a,b)
+
+
+#pass something,retuen something
+def addition(n1,n2):
+    res=n1+n2
+    return res
+
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+c=addition(a,b)
+print(c)
+
+
+#substraction 
+def substraction():
+    a=int(input("Enter a number: "))
+    b=int(input("Enter a number: "))
+    c=a-b
+    print(c)
+substraction()
+
+
+#multiplication
+def multiplication():
+    a=int(input("Enter a number: "))
+    b=int(input("Enter a number: "))
+    c=a*b
+    print(c)
+multiplication()
+
+
+#division
+def division():
+    a=int(input("Enter a number: "))
+    b=int(input("Enter a number: "))
+    c=a/b
+    print(c)
+division()
+
+
+check the number is prime if prime then add25 tothe num or print the sqr of the num
+
+def add25(value):
+    return value+25
+
+def sqr(value):
+    return value**2
+
+#prime
+def check(number):
+    count=1
+    for i in range(2,number):
+        if number%i==0:
+            count=0
+            break
+    return count
+
+num=int(input("Enter a number: "))
+prime=check(num)
+if prime==1:
+    res= add25(num)
+else:
+    res= sqr(num)
+print(res)
