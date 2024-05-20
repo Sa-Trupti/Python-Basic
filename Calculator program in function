@@ -1,1 +1,42 @@
+def addition(value1,value2):
+    return value1+value2
+def substracion(value1,value2):
+    return value1-value2
+def multiplication(value1,value2):
+    return value1*value2
+def division(value1,value2):
+    return value1//value2
 
+
+
+
+print("Operation to be performed ! \n")
+print("1. Addition ")
+print("2. Substraction")
+print("3. Multiplication")
+print("4. Division")
+
+
+opt=int(input("Enter a input(1/2/3/4/)" ))
+if(opt==1):
+    Num1=float(input("Enter First Number:"))
+    Num2=float(input("Enter Second Number:"))
+    print("Result",addition(Num1,Num2))
+elif(opt==2):
+    Num1=float(input("Enter First Number:"))
+    Num2=float(input("Enter Second Number:"))
+    print("Result",substracion(Num1,Num2))
+elif(opt==3):
+    Num1=float(input("Enter First Number:"))
+    Num2=float(input("Enter Second Number:"))
+    print(multiplication(Num1,Num2))
+elif(opt==4):
+    Num1=float(input("Enter First Number:"))
+    Num2=float(input("Enter Second Number:"))
+    print(division(Num1,Num2))
+elif(opt==5):
+    pass
+else:
+    print("Invalid input")
+    
+    
