@@ -1,1 +1,56 @@
+def deposite(bal):
+     amount=float(input("Enter your amount: "))
+     bal=bal+amount
+     return (bal,amount)
 
+def withdrawl(bal):
+     amount=float(input("Enter your amount: "))
+     bal=bal-amount
+     return (bal,amount)
+
+def balanCheck(bal):
+    print("your balance: ",bal)
+
+def MiniStament(data):
+    print(data)
+
+def Transfer(bal):
+    amount=float(input("Enter your amount: "))
+    bal=bal-amount
+    return (bal,amount)
+
+def exit():
+    pass
+
+pin=int(input("Enter your atm pin"))
+balance=1000
+hist=[]
+if(pin==1234):
+    while(True):
+        print("\n1. Deposite \n 2. Withdrawl \n3. Balance Check \n4. Mini stament \n5. Transfer \n6. Exit ")
+        ch=int(input("Enter your choice: "))
+        if(ch==1):
+            balance,value=deposite(balance)
+            balanCheck(balance)
+            hist.append('Deposite: '+str(value))
+        elif(ch==2):
+            balance,value=withdrawl(balance)
+            balanCheck(balance)
+            hist.append('Withdrawl: '+str(value))
+        elif(ch==3):
+             balanCheck(balance)
+        elif(ch==4):
+            MiniStament(hist)
+        elif(ch==5):
+            balance,value=Transfer(balance)
+            balanCheck(balance)
+            hist.append('Transfer: '+str(value))
+            # Transfer(balance)
+        elif(ch==6):
+            break
+            
+        else:
+            print("Invalid Input")
+else:
+        ("Invalid PI")
+    
